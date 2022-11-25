@@ -1,15 +1,15 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class Lesson3_1 {
-    public static void main(String[] args) {
-        NameOfTheMonth();
-
-    }
-
-    public static void NameOfTheMonth() {
-        System.out.println("Enter the month number,please.");
-        Scanner scanner = new Scanner(System.in);
-        int number = scanner.nextInt();
+    public static void main(String[] args) throws IOException {
+        int number = 0;
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        while (number != 100) {
+            System.out.println("Enter the month number,please.To end the method,enter the number 100.");
+            number = Integer.parseInt(reader.readLine());
             switch (number) {
                 case 1:
                     System.out.println("It's January!");
@@ -47,11 +47,15 @@ public class Lesson3_1 {
                 case 12:
                     System.out.println("It's December!");
                     break;
+                case 100:
+                    System.out.println("The end.");
+                    break;
                 default:
                     System.out.println("Error,there is no such month!!!");
 
             }
-            System.out.println("\nEnd of the method.");
-        }
-    }
 
+        }
+        System.out.println("\nEnd of the method.");
+    }
+}
