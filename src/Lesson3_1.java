@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class Lesson3_1 {
     public static void main(String[] args) {
-        TimeOfYear();
+        Month();
 
     }
 
-    public static void TimeOfYear() {
+    public static void Month() {
         System.out.println("Enter the month number,please.");
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
