@@ -21,6 +21,9 @@ System.out.println("Enter the number month,please.");
     else if(number==9||number==10||number==11){
         System.out.println("Autumn!");
     }
+    else if (number<=0||number>12){
+        System.out.println("Error,there is no such month!!!");
+    }
     System.out.println("\nEnd of the method.");
 
 }
