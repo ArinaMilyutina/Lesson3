@@ -51,6 +51,7 @@ public class Lesson3_1 {
                     System.out.println("Error,there is no such month!!!");
 
             }
+            System.out.println("\nEnd of the method.");
         }
     }
 
