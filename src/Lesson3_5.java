@@ -7,8 +7,8 @@ public class Lesson3_5 {
     public static void main(String[] args) throws IOException {
         int number=0;
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        while (number!=7) {
-            System.out.println("Enter the number,please.");
+        while (number!=8) {
+            System.out.println("Enter the number,please.To end the method,enter the number 8.");
 
             number = Integer.parseInt(reader.readLine());
 
@@ -33,6 +33,9 @@ public class Lesson3_5 {
                     break;
                 case 7:
                     System.out.println("Purple.");
+                    break;
+                case 8:
+                    System.out.println("The end.");
                     break;
                 default:
                     System.out.println("Error,please enter the number again.!");
