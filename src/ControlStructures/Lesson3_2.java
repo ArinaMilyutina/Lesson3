@@ -1,5 +1,5 @@
+package ControlStructures;
 import java.util.Scanner;
-
 public class Lesson3_2 {
 public static void main(String[]args){
     TimeOfYear();
