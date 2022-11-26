@@ -1,3 +1,4 @@
+package Cycle;
 public class Lesson3_6 {
     public static void main(String[]args){
         SquaresOfNumbers();

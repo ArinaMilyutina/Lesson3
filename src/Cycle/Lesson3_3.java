@@ -1,3 +1,4 @@
+package Cycle;
 import java.util.Scanner;
 
 public class Lesson3_3 {
