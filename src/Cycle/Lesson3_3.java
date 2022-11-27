@@ -3,10 +3,10 @@ import java.util.Scanner;
 
 public class Lesson3_3 {
     public static void main(String[] args) {
-        SumOfNumbers();
+        sum_of_numbers();
     }
 
-    public static void SumOfNumbers() {
+    public static void sum_of_numbers() {
         int sum = 0;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number,please.");
