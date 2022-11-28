@@ -1,12 +1,17 @@
 package AdditionalTask;
 public class Lesson3_3 {
-    public static void main(String[] args) {
-        int q = 1;
 
-        for (int i = 1; i < 10; i++) {
-            for (int j = 1; j < 10; j++) {
-                q = j * i;
-                System.out.println(i + "*" + j + "=" + q);}
+    public static void main(String[] args) {
+        final String TAB = "    ";
+        for (int y = 0; y < 3; y++) {
+            for (int j = 1; j <= 9; j++) {
+                for (int x = 0; x < 3; x++) {
+                    int i = 1 + y * 3 + x;
+                    System.out.printf("%2d x %2d = %3d" + TAB, i, j, i * j);
+                }
+                System.out.println();
             }
+            System.out.println();
         }
     }
+}
