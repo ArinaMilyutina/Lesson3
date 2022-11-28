@@ -7,7 +7,7 @@ public class Lesson3_3 {
             for (int j = 1; j <= 9; j++) {
                 for (int x = 0; x < 3; x++) {
                     int i = 1 + y * 3 + x;
-                    System.out.printf("%2d x %2d = %3d" + TAB, i, j, i * j);
+                    System.out.printf("%2d x %d = %2d" + TAB, i, j, i * j);
                 }
                 System.out.println();
             }
